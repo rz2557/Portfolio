@@ -1,0 +1,51 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #000428, #004e92);
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #000428, #004e92);
+  color: white;
+  padding-top: 100px;
+}
+
+.profile-photo-placeholder {
+  width: 150px;
+  height: 150px;
+  background-color: #ffffff44;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-img-placeholder {
+  height: 200px;
+  background: #b0c4de;
+  background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.contact-section input,
+.contact-section textarea {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-section button {
+  width: 200px;
+}
