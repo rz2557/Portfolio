@@ -17,7 +17,7 @@ portfolio/
 - Blue-black linear gradient background
 - Profile photo placeholder
 - Project cards with image placeholders and descriptions
-- Contact form with dummy submission alert
+- Contact form with submission alert
 
 ## 🛠️ Technologies Used
 - HTML5
