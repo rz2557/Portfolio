@@ -1,0 +1,127 @@
+/* === Global & Background === */
+body {
+  /* pure black at top‑left, fading into #4e4376 */
+  background: radial-gradient(
+    circle at top left,
+    #000000 0%,
+    #4e4376 100%
+  ) fixed no-repeat;
+  background-size: cover;
+}
+
+/* Full‑page charcoal → Persian green gradient */
+body {
+  background: linear-gradient(
+    135deg,
+    #212121,    /* charcoal */
+    #181c1d,    /* Persian green (dark) */
+    #2d4542     /* Persian green (light) */
+  ) no-repeat fixed;
+  background-size: cover;
+
+  /* preserve your other body styles */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* === Hero Section === */
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  background: url("page_background.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+}
+.hero-content img {
+  margin-bottom: 0rem !important;
+}
+
+
+/* === Buttons === */
+.btn-hero {
+  background: linear-gradient(135deg, #307455, #1c91d9);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-hero:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 20px rgb(44, 118, 147);
+}
+
+/* === Section Titles === */
+.section-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #fff !important;
+}
+
+/* === Section Content Panels === */
+.section-content {
+  background-color: #181c1d !important;
+  color: #f5f5f5 !important;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.section-content h5 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff !important;
+}
+
+.section-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #f5f5f5 !important;
+}
+
+.section-content ul li {
+  color: #f5f5f5 !important;
+}
+
+/* === Project Cards === */
+.project-card {
+  background: rgba(0, 0, 0, 0.6) !important;
+  color: #f5f5f5 !important;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card .card-title,
+.project-card .card-text {
+  color: #f5f5f5 !important;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+/* === Footer === */
+footer.bg-gradient {
+  background: linear-gradient(135deg, #2c2c2e, #1f2a33) !important;
+}
